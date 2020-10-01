@@ -227,6 +227,18 @@
           "activity_id": 4,
           "image": "css/images/product_images/soccernet.jpg"
         }
+          ,
+        {
+          "id": 39,
+          "name": "Hactober event",
+          "short_desc": "Win a teeshirt",
+          "price": 599.99,
+          "quantity": 1,
+          "quantity_shipped": 10000,
+          "quantity_instock": 3676,
+          "activity_id": 7,
+          "image": "https://cdn-media-1.freecodecamp.org/images/1*OsNbZRAL4XOMRC263dUPaw.png"
+        }
       ]
     }
   ]

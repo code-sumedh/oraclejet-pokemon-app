@@ -26,13 +26,13 @@ define(['accUtils', 'knockout', 'ojs/ojbootstrap', 'ojs/ojcore', 'jquery', 'ojs/
         return string.charAt(0).toUpperCase() + string.slice(1);
       }
       var basicurl = "https://pokeapi.co/api/v2/pokemon/";
-      for (i = 0; i < 5; i++) {
+      for (i = 0; i < 6; i++) {
         getdata(basicurl.concat(randomNumber(1, 964)));
       }
 
       self.data = ko.observableArray();
       self.itemSelected = ko.observable(false);    // Item selection observables
-      self.chartDataProvider = ko.observableArray([]);  //holds data for pie chart
+      self.chartDataProvider = ko.observableArray([]);  // holds data for pie chart
 
       function getdata(arg) {
         $.getJSON(arg).

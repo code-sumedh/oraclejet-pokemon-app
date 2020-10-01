@@ -17,8 +17,7 @@
     html:not([dir="rtl"]) .oj-table-column-header-cell {
       font-weight: bold;
     }
-    
-	table, th, td {
+    table, th, td {
       border: 1px solid black;
     }
    </style>
@@ -32,7 +31,6 @@
           </oj-chart>
         </oj-bind-if>
   </div>
-
   <oj-table id='table' aria-label="Pokemon Table" data="[[dataProvider]]" accessibility.row-header="PokeId"
     scroll-policy='loadMoreOnScroll' scroll-policy-options.fetch-size='3' selected.row="{{selectedItems}}"
     on-selected-changed="{{selectionListener}}" selection-mode='[{"row": "multiple"}]' 

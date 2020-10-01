@@ -11,13 +11,10 @@ require(['ojs/ojcore', 'knockout', 'jquery',  'ojs/ojarraydataprovider','ojs/ojt
 function(oj, ko, $, ArrayDataProvider) {
 
   
-  function CustomerViewModel()
-  {
-    var self = this;
+  function CustomerViewModel() {
 
-
-      }
-    );
+  }
+ );
 
    
    
